@@ -23,7 +23,6 @@ const getFileAsTxt = () => {
   console.log(pin);
   // This variable stores all the data.
   let data =
-    " \r\n " +
     pin +
     " \r\n " +
     "Name:" +
