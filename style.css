@@ -1,6 +1,9 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
-  overflow-y: hidden;
+  background-color: black;
 }
 body > div {
   position: relative;
@@ -81,6 +84,9 @@ input[type="submit"]:hover {
   color: royalblue;
   transition: 0.3s ease;
   cursor: pointer;
+}
+form label {
+  color: white;
 }
 #pinContainer {
   display: none;
