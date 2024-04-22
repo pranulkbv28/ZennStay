@@ -32,5 +32,7 @@ public class verification {
         } catch (IOException e) {
             System.err.println("Error reading the file: " + e.getMessage());
         }
+
+        sc.close();
     }
 }
