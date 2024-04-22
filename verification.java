@@ -5,7 +5,8 @@ import java.util.Scanner;
 
 public class verification {
     public static void main(String[] args) {
-        String filePath = "pincode.txt";
+        // String filePath = "C:\Users\prana\Downloads\LSMAuth";
+        String filePath = "C:/Users/prana/OneDrive/Desktop/pincode.txt";
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter your PIN code: ");
         String userPIN = sc.nextLine();
